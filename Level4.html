@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Ordered list-->
+    <ol type="1">
+      <li>apple</li>
+      <li>Mango</li>
+      <li>Banana</li>
+      <li>Orange</li>
+    </ol>
+    <ol type="A">
+      <li>apple</li>
+      <li>Mango</li>
+      <li>Banana</li>
+      <li>Orange</li>
+    </ol>
+    <ol type="a">
+      <li>apple</li>
+      <li>Mango</li>
+      <li>Banana</li>
+      <li>Orange</li>
+    </ol>
+    <ol type="I">
+      <li>apple</li>
+      <li>Mango</li>
+      <li>Banana</li>
+      <li>Orange</li>
+    </ol>
+    <ol type="i">
+      <li>apple</li>
+      <li>Mango</li>
+      <li>Banana</li>
+      <li>Orange</li>
+    </ol>
+    <!--Unordered list-->
+    <ul type="circle">
+      <li>apple</li>
+      <li>Mango</li>
+      <li>Banana</li>
+      <li>Orange</li>
+    </ul>
+    <ul type="disc">
+      <li>apple</li>
+      <li>Mango</li>
+      <li>Banana</li>
+      <li>Orange</li>
+    </ul>
+    <ul type="square">
+      <li>apple</li>
+      <li>Mango</li>
+      <li>Banana</li>
+      <li>Orange</li>
+    </ul>
+    <ul>
+      <li>Apple</li>
+      <ol>
+        <li>apple</li>
+        <li>Mango</li>
+      </ol>
+      <li>Lemon</li>
+      <ol>
+        <li>Banana</li>
+        <li>Orange</li>
+      </ol>
+    </ul>
+    <!--Tables in the html-->
+    <table>
+      <thead>
+        <caption>
+          Student record
+        </caption>
+        <tr>
+          <th>Name</th>
+          <th>Roll No</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Manju yadav</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Mona yadav</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Sonu yadav</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--Forms in the Html-used to collect the data from the user-->
+    <form action="action.php">
+      <fieldset>
+        <legend><h2>Admission Form</h2></legend>
+        <div for="group_form">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your first name"
+          />
+          <input
+            type="text"
+            name="name"
+            id="last"
+            placeholder="Enter your last name"
+          />
+        </div>
+        <br />
+        <div for="group_form">
+          <fieldset>
+            <legend>Class :</legend>
+            <label for="class"></label>
+            <input type="radio" value="X" name="Class" id="class" />Class X
+            <label for="class1"></label>
+            <input type="radio" class="XI" name="Class" id="class1" />Class XI
+          </fieldset>
+        </div>
+        <br />
+        <div>
+          <fieldset>
+            <legend>Select your subject :</legend>
+            <label for="Math"></label>
+            <input type="checkbox" name="" id="Math" />Math<br />
+            <label for="Science"></label>
+            <input type="checkbox" name="" id="Science" />Science<br />
+            <label for="English"></label>
+            <input type="checkbox" name="" id="English" />English<br />
+            <label for="Hindi"></label>
+            <input type="checkbox" name="" id="Hindi" />Hindi<br />
+            <label for="Computer Science"></label>
+            <input type="checkbox" name="" id="Computer Science" />Computer
+            Science<br />
+          </fieldset>
+          <fieldset>
+            <legend>Select your City :</legend>
+            <select name="city">
+              <option>Select the option</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Gurugram">Gurugram</option>
+              s
+              <option value="Pune">Pune</option>
+              <option value="Hydrabad">Hydrabad</option>
+            </select>
+          </fieldset>
+        </div>
+        <div>
+          <textarea
+            name="feedback"
+            id="101"
+            rows="10"
+            column="200"
+            placeholder="Enter your feedback"
+          ></textarea>
+        </div>
+        <br />
+        <div>
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
+      </fieldset>
+    </form>
+    <div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/qR9U6bKxJ7g?si=lF9VCnhtEkMtWy2M"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe  src="https://www.wikipedia.org/" height="200" width="200">
+Wikipedia
+      </iframe>
+    </div>
+  </body>
+</html>
